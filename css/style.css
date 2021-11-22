@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ------------------------------------Header-------------------------------------- */
+.main{
+    width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+}
+.my_icon{
+    font-size: 45px;
+    color:rgb(38, 42, 80);
+    float: left;
+}
+.main_header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    float: left;
+}
+.main_logo{
+    max-width: 15%;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    
+}
+
+.main_navbar{
+    max-width: 540px;
+    height: 80px;
+    display: flex;
+    float: left;
+    text-align: center;
+   
+    
+}
+.navbar_icon{
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    border-radius: 50px;
+    float: left;
+    transition: all 0.5s;
+    line-height: 60px;
+    font-size: 28px; 
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+.icon_list{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    float: left;
+    align-items: center;
+    transition: all 0.5s;
+    
+}
+.icon_list i{
+    font-size: 36px;
+}
+.navbar_icon:hover{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar_icon:hover .icon_list{
+    background: #25244F;
+    color: #fff;
+
+}
+.navbar_icon:hover span{
+    color: rgb(72, 86, 168);
+}
+/* -----------------------------------------body-------------------------------------- */
+.ox_block{
+    width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+    /* background: #25244F; */
+    display: flex;
+    justify-content: center;
+    
+}
+.block_img{
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: cover;
+    margin: 60px;
+    border-radius: 50px 0;
+    float: right;
+}
+.block_text{
+    max-width: 400px;
+    height: 200px;
+    margin: 120px;
+   
+}
+.block_text h1{
+    font-weight: 900;
+}
+.text_btn{
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px 0;
+    border:none;
+    background: #25244F;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 700;
+}
+.text_btn:hover{
+    transform: scale(1.1);
+    background: #fff;
+    color: #25244F ;
+    cursor: pointer;
+}
